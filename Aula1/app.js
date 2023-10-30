@@ -10,4 +10,5 @@
 // let currentYear = 2023
 // const anoNascimento = 1988
 // console.log(age, currentYear)
-
+// alert('Novo A lerta')
+console.log('123456789')
