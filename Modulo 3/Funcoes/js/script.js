@@ -20,3 +20,11 @@ const double = function(number){
     return number**2
 }
 console.log(double(3));
+
+const ul = document.querySelector('[data-js="ul"]')
+const socialNetworks= ['youtube','twitter','instagram','facebook']
+let HTMLTemplate=''
+socialNetworks.forEach(socialNetworks => {
+    HTMLTemplate += `<li style="color: darkred;">${socialNetworks}</li>`
+})
+ul.innerHTML = HTMLTemplate

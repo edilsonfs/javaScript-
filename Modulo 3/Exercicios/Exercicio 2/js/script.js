@@ -166,3 +166,7 @@ function funcArray(array){
     return frase
 }
 console.log(funcArray(functions));
+
+
+const pow = numb => numb**2
+console.log(pow(3));
